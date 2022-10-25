@@ -8,3 +8,39 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+.background{
+  background-color: #497195;
+  height: 400px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0
+}
+.body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  margin-left: 10%;
+  width: 75%;
+  z-index: 1
+}
+.right-side{
+  margin-left: 5%
+}
+.logo-button{
+  display: flex;
+  justify-content: space-between;
+}
+.logo-button button{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #40688C;
+  color: #E2E9EE;
+  border-radius: 6px;
+  height: 50px;
+  width: 100px;
+  font-size: 1.0em;
+  align-self: center;
+}
